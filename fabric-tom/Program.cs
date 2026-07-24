@@ -41,7 +41,7 @@ internal static class Program
         GetEnvWithLegacyFallback("CLEAR_STRUCTURED_CREDENTIAL", "SQL_CLEAR_STRUCTURED_CREDENTIAL"),
         fallbackValue: false);
       string structuredCredentialWriteMode =
-        GetFirstNonEmptyEnv("MODEL_UPDATE_MODE", "CREDENTIAL_WRITE_MODE", "SQL_CREDENTIAL_WRITE_MODE")
+        GetFirstNonEmptyEnv("MODEL_UPDATE_MODE")
         ?? "TOM";
       string tmdlFolderPath =
         GetEnvWithLegacyFallback("TMDL_FOLDER_PATH", "SQL_TMDL_FOLDER_PATH")

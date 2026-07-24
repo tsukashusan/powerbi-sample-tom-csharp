@@ -90,7 +90,7 @@ SQL_DIRECTQUERY_COLUMNS=ProductKey:Int64:ProductKey;ProductName:String:ProductNa
 | `TMSL` | TMSL の createOrReplace を使う |
 | `TMDL` | TMDL フォルダ API を使う |
 
-旧キー `CREDENTIAL_WRITE_MODE` と `SQL_CREDENTIAL_WRITE_MODE` も互換のため残していますが、新規設定では `MODEL_UPDATE_MODE` を使ってください。
+
 
 ## TMDL の使い方
 
